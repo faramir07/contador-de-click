@@ -22,8 +22,8 @@ function App() {
         </div>
         <div className='contcontador'>
           <Contador numclick={numclick}/>
-          <Boton texto='Click' esBotonDeClick={true} manejarClic={manejarClick}/>  
-          <Boton texto='Reiniciar' esBotonDeClick={false} manejarClic={reiniciarContador}/>
+          <Boton texto='Click' esBotonDeClick={true} manejarClick={manejarClick}/>
+          <Boton texto='Reiniciar' esBotonDeClick={false} manejarClick={reiniciarContador}/>
         </div>
     </div>
   );
